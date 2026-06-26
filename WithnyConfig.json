@@ -1,0 +1,26 @@
+{
+  "name": "Withny",
+  "description": "Withny (ウィズニー) - AVtuberのライブ配信・動画プラットフォーム",
+  "author": "Manus",
+  "authorUrl": "https://manus.im",
+  "platformUrl": "https://www.withny.fun",
+  "sourceUrl": "https://raw.githubusercontent.com/user/repo/main/WithnyConfig.json",
+  "repositoryUrl": "https://github.com/user/repo",
+  "scriptUrl": "./WithnyScript.js",
+  "version": 2,
+  "iconUrl": "https://www.withny.fun/favicon.ico",
+  "id": "c8534e7c-3399-47fd-a29b-b3629bedd9ba",
+  "packages": [
+    "Http",
+    "DOMParser",
+    "Utilities"
+  ],
+  "allowEval": false,
+  "allowUrls": [
+    "everywhere"
+  ],
+  "authentication": {
+    "loginUrl": "https://www.withny.fun/login",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+}
